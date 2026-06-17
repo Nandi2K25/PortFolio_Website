@@ -87,10 +87,10 @@ nav a:hover{
     margin:auto;
 
     display:grid;
-    grid-template-columns:2fr 1fr;
-    gap:30px;
+    grid-template-columns:1fr 2fr;
+    gap:40px;
 
-    align-items:start;
+    align-items:center;
 }
 
 .about-card,
@@ -151,15 +151,8 @@ nav a:hover{
 }
 
 /* =========================================
-   ABOUT LAYOUT
+   ABOUT CONTENT LAYOUT
 ========================================= */
-
-.about-container{
-    display:grid;
-    grid-template-columns:1fr 2fr;
-    gap:40px;
-    align-items:center;
-}
 
 .about-content{
     display:flex;
